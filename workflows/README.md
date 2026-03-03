@@ -24,7 +24,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: [우리-조직명]/.github/.github/workflows/reusable-pr-title.yml@main
+    uses: k8s-Parkflow/.github/.github/workflows/reusable-pr-title.yml@main
 ```
 
 ---
