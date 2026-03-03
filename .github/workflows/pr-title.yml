@@ -4,6 +4,10 @@ on:
   pull_request:
     types: [opened, edited, synchronize]
 
+permissions:
+  pull-requests: write
+  contents: read
+
 jobs:
   call-workflow:
     # 'k8s-Parkflow/.github' 레포지토리에 있는 파일을 호출함
