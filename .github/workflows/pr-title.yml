@@ -7,4 +7,4 @@ on:
 jobs:
   call-workflow:
     # 'k8s-Parkflow/.github' 레포지토리에 있는 파일을 호출함
-    uses: k9s-Parkflow/.github/workflows/reusable-pr-title.yml@main
+    uses: k9s-Parkflow/.github/.github/workflows/reusable-pr-title.yml@main
