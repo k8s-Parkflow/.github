@@ -1,0 +1,10 @@
+name: "PR Title Auto Format"
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  call-workflow:
+    # '사용자조직명/.github' 레포지토리에 있는 파일을 호출함
+    uses: 사용자조직명/.github/.github/workflows/reusable-pr-title.yml@main
